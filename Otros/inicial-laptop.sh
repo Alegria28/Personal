@@ -75,6 +75,7 @@ echo ":: Instalando paquetes..."
 pacman -S --noconfirm \
     xorg-server \
     pipewire pipewire-pulse pipewire-jack \
+    base-devel \
     bash-completion \
     openssh \
     zip unzip \
