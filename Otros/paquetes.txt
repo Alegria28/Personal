@@ -36,3 +36,8 @@ hyprlock.conf		~/.config/hpyr/ 	Archivo para la configuracion del lock
 hyprpaper.conf		~/.config/hpyr/ 	Archivo para la configuracion del fondo
 kitty.conf		~/.config/kitty		Archivo para la configuracion de la terminal
 current-theme.conf	~/.config/kitty		Archivo para la configuracion de la termial
+
+
+
+
+gdm - greeter
