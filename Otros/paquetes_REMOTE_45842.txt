@@ -1,0 +1,11 @@
+Nombre del paquete	Forma de instalarlo	Notas
+
+networkmanager		pacman			Hay que iniciar el servicio usando systemctl start y enable NetworkManager
+git 			pacman
+nvim			pacman
+bash-completion		pacman			En teoria al instalarlo deberia configurarse solo
++ttf-nerd-fonts-symbols	pacman			Se supone que deberia ser ttf-font-awesome para el waybar pero no funcionaba
+base-devel		pacman
+yay			github			Se necesita instalar base-devel y git antes de instalarlo
++xdg-user-dirs		pacman			Para crear los directorios usando xdg-user-dirs-update
+visual-studio-code-bin	yay			Programar
