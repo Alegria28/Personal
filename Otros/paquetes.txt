@@ -20,8 +20,14 @@ Docker			pacman			Habilitar servicios y agregar usuario al grupo de docker
 Pyenv			?			Para manejar versiones de python
 power-profiles-deamon	pacman			Habilitar el servicio con --now
 spotify			yay			Musica
+gnome-keyring-daemon	pacman 			Para guardar sesion en vscode
+libsecret
+seahorse		pacman 			Manejar llaves
+shutter			pacman 			Para screenshots
 
 
+--- Otros ---
+Configuracion llaves aplicacion agregando password keyring con contraseña del usuario (nombre "Log in") con el nombre archivo en la ruta /etc/pam.d/lightdm y borrar carpeta ~/.local/share/keyrings/ para tener  
 
 Para la PC
 Openrazer - Polychromatic
