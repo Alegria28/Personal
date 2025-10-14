@@ -10,7 +10,7 @@ bash-completion		pacman			En teoria al instalarlo deberia configurarse solo
 base-devel		pacman			Se necesita para yay
 yay			github			Para poder utilizar AUR
 Blueman			pacman			Interfaz grafica para el bluetooth, inciar y habilitar servicios 
-xdg-user-dirs		pacman			Para crear los directorios usando xdg-user-dirs-update
+xdg-user-dirs		pacman			Para crear los directorios usando xdg-user-dirs-update, ademas de agregarlos a bookmarks de manera manual
 visual-studio-code-bin	yay			Programar
 SDKMAN			google			Para descargar herramientas de programacion
 Java			SDKMAN			
@@ -24,10 +24,19 @@ gnome-keyring-daemon	pacman 			Para guardar sesion en vscode
 libsecret
 seahorse		pacman 			Manejar llaves
 shutter			pacman 			Para screenshots
+nemo-fileroller		pacman			Para habilitar opcion de descomprimir
+reflector 		pacman			Para tener lista de mirrors 
+xampp			yay
+net-tools		pacman
+vlc			yay			Reproductor de videos
+shootwell		pacman			Reproducir imagenes
+
 
 
 --- Otros ---
 Configuracion llaves aplicacion agregando password keyring con contraseña del usuario (nombre "Log in") con el nombre archivo en la ruta /etc/pam.d/lightdm y borrar carpeta ~/.local/share/keyrings/ para tener  
+
+Desactivar touchscreen modificando archivo en la ruta de la foto
 
 Para la PC
 Openrazer - Polychromatic
