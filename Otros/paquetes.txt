@@ -29,6 +29,7 @@ reflector 		pacman			Para tener lista de mirrors
 xampp			yay
 net-tools		pacman
 vlc			yay			Reproductor de videos
+vlc-plugin-ffmpeg	pacman			Para reproducir videos con VLC
 shootwell		pacman			Reproducir imagenes
 
 
