@@ -15,8 +15,7 @@ visual-studio-code-bin	yay			Programar
 SDKMAN			google			Para descargar herramientas de programacion
 Java			SDKMAN			
 Gradle			SDKMAN	
-Maven			SDKMAN
-Docker			pacman			Habilitar servicios y agregar usuario al grupo de docker
+Maven			SDKMAN 
 Pyenv			?			Para manejar versiones de python
 power-profiles-deamon	pacman			Habilitar el servicio con --now
 spotify			yay			Musica
@@ -31,6 +30,16 @@ net-tools		pacman
 vlc			yay			Reproductor de videos
 vlc-plugin-ffmpeg	pacman			Para reproducir videos con VLC
 shootwell		pacman			Reproducir imagenes
+docker			yay			Habilitar servicios al arranque, agregar usuario al grupo usando sudo usermod -aG docker $USER, sudo pacman -S docker-compose
+nodejs
+npm			pacman			Para nodejs y node package manager
+redshift		pacman			Para luz en la noche
+noto-fonts-emoji	pacman			Para mostrar emojis, modificar archivo /etc/fonts/local.conf
+preload 		yay 			Optimizacion
+rofi-emoji		pacman			Para poder seleccionar emojis, ademas de shortcut para rofi -modi emoji -show emoji
+vi			pacman
+gnome-disk-utility	yay			
+
 
 
 
@@ -38,6 +47,32 @@ shootwell		pacman			Reproducir imagenes
 Configuracion llaves aplicacion agregando password keyring con contraseña del usuario (nombre "Log in") con el nombre archivo en la ruta /etc/pam.d/lightdm y borrar carpeta ~/.local/share/keyrings/ para tener  
 
 Desactivar touchscreen modificando archivo en la ruta de la foto
+
+Para: /etc/fonts/local.conf
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+</fontconfig>
+
+
 
 Para la PC
 Openrazer - Polychromatic
