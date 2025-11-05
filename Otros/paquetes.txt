@@ -39,6 +39,7 @@ preload 		yay 			Optimizacion
 rofi-emoji		pacman			Para poder seleccionar emojis, ademas de shortcut para rofi -modi emoji -show emoji
 vi			pacman
 gnome-disk-utility	yay			
+onlyoffice		yay
 
 
 
