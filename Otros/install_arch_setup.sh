@@ -50,6 +50,7 @@ YAY_PKGS=(
     rofi-emoji
     docker
     postman-bin
+    google-chrome
     # add more AUR package names here if desired
 )
 
