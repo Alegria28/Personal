@@ -49,6 +49,7 @@ YAY_PKGS=(
   pyenv
   rofi-emoji
   docker
+  postman-bin
   # add more AUR package names here if desired
 )
 
